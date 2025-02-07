@@ -141,7 +141,9 @@ Beberapa callback digunakan untuk meningkatkan efisiensi dan performa selama pro
 Kode ini digunakan untuk memberikan rekomendasi anime kepada pengguna berdasarkan data yang telah diolah menggunakan model pembelajaran. Metrik evaluasi yang digunakan untuk menilai kinerja model adalah **Root Mean Squared Error (RMSE)**. RMSE mengukur sejauh mana perbedaan antara nilai prediksi model dengan nilai aktual yang diamati. Nilai ini diperoleh dari akar kuadrat dari **Mean Squared Error (MSE)**. Semakin kecil nilai RMSE, semakin akurat model dalam melakukan estimasi, yang menunjukkan bahwa kesalahan prediksi model lebih rendah.
 
 Hasil dari evaluasi matriks adalah sebagai berikut:
-![ev-rmse](https://user-images.githubusercontent.com/57740421/196224789-a7403170-7bdd-4266-aa98-c493a06df202.png)
+
+![output](https://github.com/user-attachments/assets/dac15cab-0548-40d6-bc68-4968e913ddc5)
+
 
 
 Berdasarkan hasil visualisasi proses pelatihan model, terlihat bahwa model mulai mengalami overfitting. Hal ini dapat dilihat dari perbedaan tren antara loss data train dan test.
