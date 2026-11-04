@@ -15,7 +15,10 @@ flowchart TD
     G --> H[Urutkan skor menjadi rekomendasi]
 ```
 
-Notebook mengambil dataset melalui KaggleHub. Data yang dipakai mencakup informasi anime dan rating pengguna. Pengguna dengan jumlah rating di bawah ambang yang ditentukan notebook disaring sebelum pelatihan. Model TensorFlow membentuk embedding pengguna dan anime, lalu menggabungkan keduanya dengan dot product.
+## Evaluasi Model & Contoh Keluaran Rekomendasi
+
+![Evaluasi Loss & Contoh Rekomendasi Anime](assets/anime_recommendation_benchmark.png)
+*Gambar 1: Kurva penurunan loss RMSE pada proses pelatihan model embedding, beserta contoh output 10 anime rekomendasi teratas.*
 
 ## Menjalankan notebook
 
